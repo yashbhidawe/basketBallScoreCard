@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+ color: #fff;
+ font-family: monospace;
+}
+body{
+    background: #1B244A;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+text-align: center;
+margin: 5rem;
+}
+.scorecard{
+    padding: 1rem;
+    color: #EA4235;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 7rem;
+   
+}
+.btn{
+    padding: 1rem;
+    background: transparent;
+    color: #9AABD8;
+    font-size: 1.3rem;
+    margin: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 1rem;
+
+
+}
+#reset-btn{
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 2px solid  #EA4235;
+}
+button:hover{
+    box-shadow: 0 0 0 0.2rem white;
+    cursor: pointer;
+}
